@@ -1,0 +1,21 @@
+[project]
+name = "ragevaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.7",
+    "faiss-cpu>=1.13.2",
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.29",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.1.13",
+    "langgraph>=1.1.6",
+    "pymupdf>=1.27.2.2",
+    "pypdf>=6.10.1",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.4.1",
+    "typesense>=2.0.0",
+]
